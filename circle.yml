@@ -13,4 +13,4 @@ dependencies:
 
 test:
   override:
-    - ./build.sh
+    - docker build -t jamesmstone/reaper .
